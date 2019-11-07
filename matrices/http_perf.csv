@@ -1,0 +1,9 @@
+include,name,type,connection_type,keep_alive,transactions_connection,delay_time,delay_unit,object_type,object_size,delayed_ack,rx_window,icw,ipV4SegmentSize,ipV6SegmentSize,retries,sslTls,tls_version,certificate,ciphers,supportedGroups,signature_hash,tls_record,payloadEncryptionOffload,http_method,post_size,name_suffix
+Y,HTTP-TPUT-512KB,http_throughput,keepalive,TRUE,10,0,sec,fixed-random,512000,11680,65538,10,1460,1440,3,FALSE,none,none,none,none,none,none,none,GET,none,auto
+Y,HTTP-TPUT-512KB-BIDIR,http_throughput,keepalive,TRUE,10,0,sec,fixed-random,512000,11680,65538,10,1460,1440,3,FALSE,none,none,none,none,none,none,none,POST,512000,auto
+Y,HTTP-TPUT-100KB,http_throughput,keepalive,TRUE,10,0,sec,fixed-random,102400,11680,65538,10,1460,1440,3,FALSE,none,none,none,none,none,none,none,GET,none,auto
+Y,HTTP-TPUT-100KB-BIDIR,http_throughput,keepalive,TRUE,10,0,sec,fixed-random,102400,11680,65538,10,1460,1440,3,FALSE,none,none,none,none,none,none,none,POST,102400,auto
+Y,CPS-1B,http_connections_per_second,separate,FALSE,1,0,sec,fixed-random,1,11680,65538,10,1460,1440,3,FALSE,none,none,none,none,none,none,none,GET,none,auto
+Y,CPS-1KB,http_connections_per_second,separate,FALSE,1,0,sec,fixed-random,1024,11680,65538,10,1460,1440,3,FALSE,none,none,none,none,none,none,none,GET,none,auto
+Y,CPS-10KB,http_connections_per_second,separate,FALSE,1,0,sec,fixed-random,10240,11680,65538,10,1460,1440,3,FALSE,none,none,none,none,none,none,none,GET,none,auto
+Y,CPS-21KB,http_connections_per_second,separate,FALSE,1,0,sec,fixed-random,21504,11680,65538,10,1460,1440,3,FALSE,none,none,none,none,none,none,none,GET,none,auto
